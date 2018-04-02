@@ -3,7 +3,7 @@ import { Navbar as BSNavbar, Nav, NavItem } from "react-bootstrap";
 import Login from "./Login/Login";
 import logo from "../../assets/logo.svg";
 
-const Navbar = props => {
+const Navbar = (props) => {
   return (
     <BSNavbar collapseOnSelect>
       <BSNavbar.Header>
